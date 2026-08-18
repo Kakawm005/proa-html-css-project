@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(62, 49, 238);
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    padding-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer{
+    background-color: white;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h1 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: solid rgb(116, 116, 116) 1px;
+    border-radius: 10px;
+    width: 1200px;
+    margin-bottom: 20px;
+
+}
+
+.card-city {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 10px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.card-city img {
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    margin: 30px;
+}
+
+.card-city a {
+    margin: 10px;
+}
+
+.card img {
+    border-radius: 20px;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 30px;
+}
