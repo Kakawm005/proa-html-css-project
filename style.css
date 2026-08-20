@@ -1,13 +1,15 @@
 body {
-    background-color: rgb(62, 49, 238);
+    background-color: #d2d9e7;
     text-align: center;
 }
 
 header {
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     padding-top: 5px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: solid rgb(116, 116, 116) 1px;
+    margin-bottom: 20px;
 }
 
 footer{
@@ -26,7 +28,7 @@ h1 {
     text-align: center;
     display: block;
     margin: 0 auto;
-    background-color: white;
+    background-color: #FFFFFF;
     border: solid rgb(116, 116, 116) 1px;
     border-radius: 10px;
     width: 1200px;
@@ -60,5 +62,34 @@ h1 {
     border-radius: 20px;
     width: 600px;
     height: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 20px;
+}
+
+.text {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.button-link {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.cab-link {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-link {
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
