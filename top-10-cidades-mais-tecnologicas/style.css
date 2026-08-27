@@ -93,3 +93,15 @@ h1 {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+table{
+    font-family: Arial, sans-serif;
+}
+
+td, th {
+    padding: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: #dffaff;
+}
